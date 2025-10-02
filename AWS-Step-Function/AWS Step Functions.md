@@ -25,9 +25,9 @@ Você cria uma **máquina de estados** (_state machine_), onde cada **estado** r
 7. **Map**
 	- Itera sobre uma lista (tipo um **for loop**), executando os mesmos estados para cada item.
 
-![Estados](./assets/image.png)
+![Estados](AWS Step Function\assets\image.png)
 # Exemplo
-![Exemplo de Fluxo](AWS-Step-Function/assets/EX_Fluxo.png)
+![Exemplo de Fluxo](AWS Step Function\assets\EX_Fluxo.png)
 
 Neste exemplo temos um fluxo simples de validação de documentos:
 - **Lambda**: armazena a função que fará a validação 
