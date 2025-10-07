@@ -3,6 +3,10 @@
 Podemos utilizar os templates quantas vezes quisermos e pagamos apenas pelas stacks/recursos criados (ex: EC2, RDS, S3 etc).
 
 Então ao invés de criar manualmente cada recurso no console da AWS, você descreve tudo em um arquivo YAML ou JSON, e o CloudFormation cria os recursos para você.
+- **JSON**: formato original do CloudFormation, baseado em pares chave-valor
+- **YAML**: formato mais simples que o JSON, necessário atenção na indentação.
+
+Dessa forma, automatizamos o processo de criação e configuração facilitando a replicação em diferentes regiões por exemplo.
 ## Benefícios
 - **Automação e repetibilidade:** 
     Permite a criação de ambientes de infraestrutura complexos de forma repetida. 
@@ -19,10 +23,10 @@ Então ao invés de criar manualmente cada recurso no console da AWS, você desc
 1. **Crie um modelo:** 
     Você escreve um arquivo de modelo em YAML ou JSON que descreve todos os recursos da AWS necessários para sua aplicação (como instâncias EC2, buckets de S3, sub-redes, etc.). 
     
-2. **Crie uma pilha (stack):** 
+- **Crie uma pilha (stack):** 
     O modelo é carregado para o CloudFormation, que cria um conjunto de recursos da AWS, chamados de "pilha". 
     
-3. **Gerencie a pilha:** 
+- **Gerencie a pilha:** 
     Você pode gerenciar a pilha através de um console, linha de comando ou API.
     
 ## Exemplo
@@ -37,3 +41,7 @@ Resources:
     Properties:
       BucketName: meu-bucket-exemplo-cloudformation
 ```
+## Diferença CloudFormation x Terraform
+A AWS CloudFormation é uma ferramenta específica para a AWS.
+Já o Terraform é uma ferramenta que suporta vários provedores cloud.
+	Então é ideal para empresas que utilizam mais de um serviço cloud, pois facilita a imigração dos recursos de uma cloud para outra.
