@@ -6,3 +6,5 @@ Se trata da documentação visual, utilizando [drawio](https://www.drawio.com/),
 Anotação sobre conceitos do serviço AWS Step Function e exemplo simples de sua aplicação.
 ## AWS-CloudFormation
 Anotação sobre o conceito do serviço AWS CloudFormation, como funciona e exemplo simples de template.
+## Projeto-Nota-Fiscal
+Anotações com o passo a passo do que será feito no projeto, assim como um diagrama visual do todo. Conceito de LocalStack, sua instalação e os primeiros passos com a tecnologia.

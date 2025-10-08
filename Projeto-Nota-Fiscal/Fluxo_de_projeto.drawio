@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Página-1" id="QlJHNZtMP5HCK4jl8LYj">
+    <mxGraphModel dx="1783" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Usuário&lt;/font&gt;" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userMale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;flowAnimation=1;" edge="1" parent="1" source="MbXasvcFEG9IoQXG3jBg-3" target="MbXasvcFEG9IoQXG3jBg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Trigger&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="MbXasvcFEG9IoQXG3jBg-19">
+          <mxGeometry x="-0.1349" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Amazon S&lt;/font&gt;3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="633.84" y="90" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Amazon DynamoDB&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="905.84" y="370" width="110" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MbXasvcFEG9IoQXG3jBg-6" target="MbXasvcFEG9IoQXG3jBg-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="584.9999999999999" y="655.6200000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-26" value="Ativa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="MbXasvcFEG9IoQXG3jBg-25">
+          <mxGeometry x="-0.1917" y="-2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Amazon API Gateway&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="461.16" y="580" width="110" height="151.24" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Cliente&lt;/font&gt;" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userMale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="589.62" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-27" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MbXasvcFEG9IoQXG3jBg-10" target="MbXasvcFEG9IoQXG3jBg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="963.84" y="656" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-28" value="Faz Consulta no DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="MbXasvcFEG9IoQXG3jBg-27">
+          <mxGeometry x="0.1169" y="-2" relative="1" as="geometry">
+            <mxPoint x="3" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Lambda&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="753.84" y="601.62" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Nota Fiscal&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/File.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="110" width="81.16" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;flowAnimation=1;" edge="1" parent="1" source="MbXasvcFEG9IoQXG3jBg-12" target="MbXasvcFEG9IoQXG3jBg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Processa e grava no DB&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="MbXasvcFEG9IoQXG3jBg-21">
+          <mxGeometry x="0.1276" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Lambda Python&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="905.84" y="111" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="MbXasvcFEG9IoQXG3jBg-1" target="MbXasvcFEG9IoQXG3jBg-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-32" value="Posta arquivo no S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="MbXasvcFEG9IoQXG3jBg-13">
+          <mxGeometry x="-0.0786" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.037;entryY=0.457;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;flowAnimation=1;" edge="1" parent="1" source="MbXasvcFEG9IoQXG3jBg-11" target="MbXasvcFEG9IoQXG3jBg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MbXasvcFEG9IoQXG3jBg-7" target="MbXasvcFEG9IoQXG3jBg-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbXasvcFEG9IoQXG3jBg-24" value="Consulta da N. Fiscal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="MbXasvcFEG9IoQXG3jBg-23">
+          <mxGeometry x="-0.1228" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
